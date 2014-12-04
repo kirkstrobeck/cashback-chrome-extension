@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///Users/kirkstrobeck/Desktop/popup.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+      .logo {
+        width: 158px;
+        height: 64px;
+        margin-bottom: 20px;
+        background-image: url('logo.png');
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="dealitems.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="logo"></div>
+    <div id="historySearch">Searching your history for savings...</div>
+
+
+</body></html>
