@@ -1,6 +1,6 @@
 # How to install
 
-1. Download `.zip` from right-hand column
+1. Click “Download ZIP” from right-hand column
 
 2. Double-click the file to uncompress
 
